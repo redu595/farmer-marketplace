@@ -74,14 +74,14 @@ Then follow the on-screen menu to add products, view inventory, buy items, and e
 
 Enter choice: 2
 Available Products:
-1. Apple - 50 Birr - 10 left
-2. Carrot - 30 Birr - 20 left
+1. teff - 50 Birr 
+2. Carrot - 30 Birr 
 
 Enter choice: 3
-Choose Product: Apple
+Choose Product: carrot
 Quantity: 2
 
-Total Price: 100 Birr
+Total Price: 90 Birr
 Order confirmed!
 ```
 ---
