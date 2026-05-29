@@ -16,7 +16,6 @@
 - Automatically calculate totals and update inventory
 
 ---
-
 ## 🧠 Java Concepts Demonstrated
 ### 1. Classes & Objects
 Represents real-world entities using Java classes:
@@ -85,17 +84,10 @@ Quantity: 2
 Total Price: 100 Birr
 Order confirmed!
 ```
-
 ---
-
 ## 🎯 Why This Project Matters
 This marketplace is a great way to practice Java OOP while building a mini application that feels real. It shows how object design, inheritance, and behavior-driven code can create a maintainable system.
-
 ---
-
 ## 👨‍🌾 Developer
-**Your Name**
-
+**MISS REDIET Z.**
 Course: Object-Oriented Programming
-
-Happy coding! 🌻
