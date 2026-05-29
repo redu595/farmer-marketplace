@@ -1,48 +1,101 @@
-🌱 **Green Farm Marketplace System**
---project overview
-Green Farm Marketplace is a Java console-based marketplace system developed to demonstrate Object-Oriented Programming (OOP) concepts. The system allows farmers to list agricultural products while customers can browse and purchase products easily.
-The project simulates a simple digital marketplace for farm products such as vegetables, fruits, grains, and coffee.
------ Features
-1.Add farm products
-2.View available products
-3.Buy products
-4.Calculate total prices
-5.Manage product quantity
-⸻
-** **OOP Concepts Implemented**
-Classes and Objects
-The project uses classes such as:
-Product
-Vegetable
-Fruit
-Farmer
-Customer
-Order
-⸻
-**Encapsulation**
-Private variables are used with getters and setters to protect product data.
+# 🌿 Green Farm Marketplace
+
+## ✨ Project Summary
+**Green Farm Marketplace** is a fun and practical Java console application that turns everyday farm commerce into an object-oriented simulation. Built to showcase Java fundamentals, it lets farmers manage farm products and customers shop from a vibrant digital marketplace.
+
+- Realistic product listings: fruits, vegetables, grains, coffee, and more
+- Simple console UI for browsing, buying, and managing inventory
+- Core OOP design with clean class structure and reusable behavior
+
+---
+
+## 🚀 What Makes It Fun
+- Add new farm products and see them appear immediately
+- Browse all available products with prices and quantity
+- Buy products and track customer orders
+- Automatically calculate totals and update inventory
+
+---
+
+## 🧠 Java Concepts Demonstrated
+### 1. Classes & Objects
+Represents real-world entities using Java classes:
+- `Product`
+- `Vegetable`
+- `Fruit`
+- `Farmer`
+- `Customer`
+- `Order`
+
+### 2. Encapsulation
+Protects data using private fields and exposes safe access through getters/setters.
 Example:
+```java
 private double price;
 private int quantity;
-⸻
-**Inheritance**
-The subclasses inherit from the Product superclass.
-Product
-├── Vegetable
-├── Fruit
+```
 
-**Polymorphism**
-Method overriding and method overloading are implemented for product pricing and purchasing features.
+### 3. Inheritance
+`Vegetable` and `Fruit` extend `Product`, reusing common product logic while keeping specific behavior clean.
 
-▶ How to Run
-Compile the project:
+### 4. Polymorphism
+Different product types can behave differently through method overriding, especially when calculating price or displaying product details.
+
+---
+
+## 📁 Project Files
+- `Main.java`
+- `Product.java`
+- `Vegetable.java`
+- `Fruit.java`
+- `Farmer.java`
+- `Customer.java`
+- `Order.java`
+- `README.md`
+
+---
+
+## ▶️ How to Run
+Open a terminal in the project folder and run:
+```bash
 javac *.java
-Run the project:
 java Main
-⸻
+```
+Then follow the on-screen menu to add products, view inventory, buy items, and exit.
 
-Project Goal
-The goal of this project is to apply Java OOP principles in a real-world farm marketplace simulation system and make the market place more easier for the farmers to sell easily and customer purchase what they need with out over work.
+---
 
-👨‍💻 Developed By
-[miss Rediet]
+## 🖥️ Example Session
+```text
+===== Green Farm Marketplace =====
+1. Add Product
+2. View Products
+3. Buy Product
+4. Exit
+
+Enter choice: 2
+Available Products:
+1. Apple - 50 Birr - 10 left
+2. Carrot - 30 Birr - 20 left
+
+Enter choice: 3
+Choose Product: Apple
+Quantity: 2
+
+Total Price: 100 Birr
+Order confirmed!
+```
+
+---
+
+## 🎯 Why This Project Matters
+This marketplace is a great way to practice Java OOP while building a mini application that feels real. It shows how object design, inheritance, and behavior-driven code can create a maintainable system.
+
+---
+
+## 👨‍🌾 Developer
+**Your Name**
+
+Course: Object-Oriented Programming
+
+Happy coding! 🌻
